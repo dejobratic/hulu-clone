@@ -1,48 +1,48 @@
-const API_KEY = process.env.API_KEY
+const apiKey = process.env.API_KEY
 
 export default {
-  fetchTrending: {
+  Trending: {
     title: "Trending",
-    url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
+    url: `/trending/all/week?api_key=${apiKey}&language=en-US`,
   },
-  fetchTopRated: {
+  TopRated: {
     title: "Top Rated",
-    url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
+    url: `/movie/top_rated?api_key=${apiKey}&language=en-US`,
   },
-  fetchAction: {
+  Action: {
     title: "Action",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=28`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=28`,
   },
-  fetchComedy: {
+  Comedy: {
     title: "Comedy",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=35`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=35`,
   },
-  fetchHorror: {
+  Horror: {
     title: "Horror",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=27`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=27`,
   },
-  fetchRomance: {
+  Romance: {
     title: "Romance",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=10749`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=10749`,
   },
-  fetchMystery: {
+  Mystery: {
     title: "Mystery",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=9648`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=9648`,
   },
-  fetchSciFi: {
+  SciFi: {
     title: "Sci-Fi",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=878`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=878`,
   },
-  fetchWestern: {
+  Western: {
     title: "Western",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=37`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=37`,
   },
-  fetchAnimation: {
+  Animation: {
     title: "Animation",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=16`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=16`,
   },
-  fetchTV: {
+  TVShows: {
     title: "TV Movie",
-    url: `/discover/movie?api_key=${API_KEY}&with-genres=10770`,
+    url: `/discover/movie?api_key=${apiKey}&with-genres=10770`,
   },
 }

@@ -12,7 +12,7 @@ const NavBar = () => {
           <NavBarItem
             key={key}
             title={title}
-            onClick={() => router.push(`/genre=${key}`)}
+            onClick={() => router.push(`/?genre=${key}`)}
           />
         ))}
       </div>
